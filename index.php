@@ -1,17 +1,6 @@
 <?php
 
-function getFrameworks() {
-    $fws = [];
-    $fws[] = "CakePhp";
-    $fws[] = "Symfony";
-    $fws[] = "ZendFramework";
-    $fws[] = "CodeIgniter";
-    $fws[] = "Laravel";
-
-    return $fws;
-}
-
-$frameworks = getFrameworks();
+$frameworks = array("CakePhp", "Symfony", "ZendFramework", "CodeIgniter", "Laravel");
 
 // key-value pairs haben in der Aufgabe gefehlt. Habe einige ausgedacht:
 $books = ["HarryPotter" => "J.K. Rowling", "Stephen Hawking" => "A brief history of time", "Stephen King" => "On Writing"];
