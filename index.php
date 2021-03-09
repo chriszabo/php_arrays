@@ -36,11 +36,11 @@ $books = ["HarryPotter" => "J.K. Rowling", "Stephen Hawking" => "A brief history
 
     <h2>Aufgabe 25</h2>
     <?php
-    echo "<ol>";
+    echo "<ul>";
     foreach ($books as $key => $value) {
         echo "<li><b>" . $key . "</b> " . $value . "</li>";
     }
-    echo "</ol>";
+    echo "</ul>";
     ?>
 
 </body>
